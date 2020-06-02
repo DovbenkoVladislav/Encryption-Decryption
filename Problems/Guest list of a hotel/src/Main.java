@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 //put imports you need here
 
 import java.util.Scanner;
@@ -5,11 +6,10 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         // put your code here
-        int lenght = 8;
         Scanner scanner = new Scanner(System.in);
-        String[] names = new String[lenght];
+        String[] names = new String[8];
         int k = 0;
-        while (k < lenght) {
+        while (k < 8) {
             names[k] = scanner.next();
             k++;
         }

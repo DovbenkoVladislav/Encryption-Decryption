@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 //put imports you need here
 
 import java.util.Scanner;

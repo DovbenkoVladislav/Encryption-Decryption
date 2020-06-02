@@ -1,3 +1,4 @@
+// Posted from EduTools plugin
 /**
  * The class implements a simple application with the main method.
  */

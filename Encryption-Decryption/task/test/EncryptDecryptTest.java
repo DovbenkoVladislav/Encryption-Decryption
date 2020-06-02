@@ -1,43 +1,43 @@
 import encryptdecrypt.Main;
-import org.hyperskill.hstest.v6.stage.BaseStageTest;
-import org.hyperskill.hstest.v6.testcase.PredefinedIOTestCase;
+import org.hyperskill.hstest.stage.StageTest;
+import org.hyperskill.hstest.testcase.SimpleTestCase;
 
 import java.util.List;
 
-public class EncryptDecryptTest extends BaseStageTest {
+public class EncryptDecryptTest extends StageTest {
     public EncryptDecryptTest() throws Exception {
         super(Main.class);
     }
 
     @Override
-    public List<PredefinedIOTestCase> generate() {
+    public List<SimpleTestCase> generate() {
         return List.of(
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "enc\n" +
                     "Welcome to hyperskill!\n" +
                     "5",
                 "\\jqhtrj%yt%m~ujwxpnqq&"),
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "enc\n" +
                     "Hello\n" +
                     "0",
                 "Hello"),
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "enc\n" +
                     "012345678\n" +
                     "1",
                 "123456789"),
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "dec\n" +
                     "\\jqhtrj%yt%m~ujwxpnqq&\n" +
                     "5",
                 "Welcome to hyperskill!"),
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "dec\n" +
                     "Hello\n" +
                     "0",
                 "Hello"),
-            new PredefinedIOTestCase(
+            new SimpleTestCase(
                 "dec\n" +
                     "222233334444\n" +
                     "1",
