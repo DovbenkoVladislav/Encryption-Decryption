@@ -74,8 +74,6 @@ topics:
   2:
   - title: Units of information
     theory_id: 6865
-  - title: Binary numbers
-    theory_id: 5544
   - title: Sizes and ranges
     theory_id: 3532
   - title: Type casting
@@ -89,6 +87,8 @@ topics:
     theory_id: 9704
   - title: Command line overview
     theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
   - title: The main method
     theory_id: 3489
   - title: Arrays as parameters
